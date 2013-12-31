@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end  
 
 # learn-rails
 gem 'activerecord-tableless'
@@ -45,7 +46,6 @@ group :development do
 	gem 'better_errors'
 	gem 'quiet_assets'
 	gem 'rails_layout'
-
 end
 
 
